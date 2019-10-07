@@ -115,7 +115,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 853,
+				"buffer_size": 876,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 845,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -274,7 +283,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/alanna/Documents/GitHub/username.github.io"
+		"/C/Users/jh970/Desktop/jhammanPSU.github.io-master/jhammanPSU.github.io-master"
 	],
 	"file_history":
 	[
@@ -409,7 +418,7 @@
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -449,15 +458,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 853,
+						"buffer_size": 876,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								78,
-								78
+								83,
+								83
 							]
 						],
 						"settings":
@@ -471,13 +480,42 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 41.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -518,7 +556,7 @@
 	"project": "homepage.sublime-project",
 	"replace":
 	{
-		"height": 78.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

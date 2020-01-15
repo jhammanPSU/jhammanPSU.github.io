@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Media Queries</title>
+	<style>
+
+		body { background-color: #ccc; }
+		h1 { font-size: 24px; }
+		h2 { font-size: 18px; }
+		p { font-size: 16px; }
+		main { 
+			width:80%; 
+			margin: 
+			auto;
+			display:grid;
+			grid-template-columns: 1fr;
+		}
+		
+		@media only screen and (min-width: 768px){
+				h1 { 
+					font-size: 48px; 
+					grid-column:1/-1;
+					}
+				h2 { font-size: 36px; 
+					grid-column: 2/3;
+				}
+				main { 
+					width: 60%; 
+					grid-template-columns: 1fr 1fr;
+				}
+		}
+		@media only screen and (min-width: 1440px) {
+			main{
+				width:40%;
+				border: 12px solid #ddd;
+			}
+			.feature{
+				grid-column:2/3;
+			}
+			p{
+				grid-column: 1/2;
+				grid-row: ;
+			}
+			img{
+				grid-column:1/2;
+				grid-row: 2/3;
+			}
+		}
+
+
+.flex-fun{
+	display:flex;
+	width: 100%;
+}
+
+.flex-fun h1 {
+	margin: 0;
+}
+
+.flex-fun nav {
+	justify-content: right;
+}
+
+		</style>
+</head>
+
+
+<body></body>
+	
+	<main>
+
+	<h1>Title and things this sentence needs to be longer #words words words</h1>
+	
+	<h2>By Josh</h2>
+
+	<p>PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS PARA GRPAHS </p>
+	<img src="http://placekitten.com/200/300">
+
+</main>
+</html>

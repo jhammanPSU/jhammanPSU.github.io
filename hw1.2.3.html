@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>hw1.html</title>
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+font-family: 'Source Sans Pro', sans-serif;
+
+.redtext{
+	display:block;
+	text-decoration-style: color:red;
+}
+
+.text{
+	display:none;
+
+}
+.show{
+	display: block;
+	color: 321;
+}
+.body{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+}
+
+</style>
+</head>
+<body>
+
+<p class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+<p class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+<a href="#" class="btn">Click me</a>
+
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+<br>
+
+
+
+</p>
+<a href="#" class="btn2">Color Change!</a>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<script>  	
+	$('.btn').click(function() {
+		$('.text').toggleClass('show');
+	} ) 
+
+	$('.btn2').click(function() {
+		$('body').css('color','red');
+		$('text').css('color','red');
+		$('.text').toggleClass('show');
+		
+	} ) 
+</script>
+</script>
+
+</body>
+</html>

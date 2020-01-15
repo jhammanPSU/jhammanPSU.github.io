@@ -1,0 +1,128 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<title>CSS Grid Demo</title>
+
+
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+font-family: 'Source Sans Pro', sans-serif;
+
+
+
+
+
+	div{ border: 1px solid #000; }
+	img{ width:100%; }
+	.koala-grid{
+		image-rendering: ;
+		display:grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 20px;
+	}
+
+	.koala-grid .feature{
+		grid-column: 3/5;
+		grid-row: 5/3;
+	
+	}
+	.banana-grid{
+		display:grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.banana-grid{
+		grid-column:3/5;
+		grid-row:3/5;
+	}
+
+	h1{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+	}
+
+	p{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	body{
+		background-image:	; 
+		background-size:	;
+	}
+
+</style>
+
+
+
+
+</head>
+
+<body>
+
+<h1> In Class Work
+	<p>random text a bunch of times</p>
+
+
+	<section class="koala-grid">
+	
+		<div class="feature"><img src="http://placekitten.com/200/201">
+			</div>
+
+		<div><img src="http://placekitten.com/200/204">
+			</div>
+
+		<div><img src="http://placekitten.com/200/203">
+			</div>
+
+		<div><img src="http://placekitten.com/200/202">
+			</div>
+
+			<div><img src="http://placekitten.com/200/204">
+			</div>
+
+		<div><img src="http://placekitten.com/200/203">
+			</div>
+
+		<div><img src="http://placekitten.com/200/202">
+			</div>
+
+
+	</section>
+
+
+
+	<section class="banana-grid">
+	
+		<div><img src="http://placekitten.com/200/201">
+			</div>
+
+		<div><img src="http://placekitten.com/200/204">
+			</div>
+
+		<div><img src="http://placekitten.com/200/203">
+			</div>
+
+		<div><img src="http://placekitten.com/200/202">
+			</div>
+
+			<div><img src="http://placekitten.com/200/204">
+			</div>
+
+		<div><img src="http://placekitten.com/200/203">
+			</div>
+
+		<div><img src="http://placekitten.com/200/202">
+			</div>
+
+
+	</section>
+	
+</body>
+</html>

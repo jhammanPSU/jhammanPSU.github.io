@@ -1,0 +1,335 @@
+//switch Statements
+
+
+
+boilerplate
+
+
+
+
+<body>
+
+function
+<select id-"dropdown">
+	<option value="" selected>--</option>
+	<option>one</option>
+	<option>two</option>
+	<option>three</option>
+</select>
+
+<p id="speak"></p>
+
+
+
+<script>
+	if($('#dropdown').val('one')){
+	$('speak').html('one is the loneliest number');
+
+</script>
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+case 'two':
+$('#speak').html('one is the loneliest number');
+
+
+
+let numberPic = $('dropdown')
+
+
+
+
+$('#speak').html
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+<body><body>	-Body
+
+<head><head>	-Tab Name
+
+<title><title>	-Title
+
+<h1></h1>	-Header Title Default Font #1
+<h2></h2>	    "         "            #2
+<h3></h3>	    "         "            #3
+<h4></h4> 	                           #4
+<h5></h5>	                           #5
+<h6></h6>         			   #6
+
+<p></p> 	-Paragraph
+
+<b></b>		-Bold
+<i></i>		-Italics
+
+<sub></sub> 	-Subscript
+<sup></sup>	-Superscript
+
+<br />		-Line Break
+<br>		-Break
+<hr /> 		- Horizontal Decor Line
+
+	<ol>				Ordered List // Auto creates numbered list 
+		<li>cat</li>		List item 1  //	1. cat
+		<li>dog</li>		List item 2  // 2. dog
+		<li>bird</li>		List item 3  // 3. bird 
+	</ol>			
+		
+	<ul>				Unordered List // Auto creates bulleted list 
+		<li>1</li>		List item 1  //	 cat		
+		<li>2</li>		List item 2  //	 dog
+		<li>3</li>		List item 3  //	 bird
+	</ul>
+-------------------------------------
+
+Definition List---------------------
+
+	<dl>				New Definition
+		<dt> 			Definition Term	
+			<dd></dd> 	Contains the Definition 
+		</dt>
+	</dl>			
+
+Nested List-------------------------
+
+	<ul>				New Nested List
+	    <li>			List Item 1
+	    <li>			List Item 2
+	        <ul>			Item 2 Nested List
+		     <li></li>		Item 2 sub 1
+		     <li></li>		Item 2 sub 2
+		     <li></li>		Item 2 sub 3
+		</ul>
+	    </li>
+	</ul>		
+
+Images------------------------------
+
+<img></img> 		Image Tag
+<src="">  		Image Source Tag
+<alt> 			Alt text if the Image doesnt load 
+<title></title>		Title of Image
+
+Tables-----------------------------
+<td colspam=""> Column Span  1,2,3
+
+<table> 						<table> Creat A NEw G
+	<tr>						<tr> Start of Table Row (1)
+		<th></th>  				<th> Table Header Bold Text
+		<th>Example 1</th>			<th> Table Header 1
+		<th>Example 2</th>			<th> Table Header 2 
+		<th>Example 3</th>			<th> Table Header 3 
+	</tr>						</tr> End of Table Row (2)
+	<tr>						<tr> Start of Table Row 2
+		<td></td>				<td> Table data 
+		<td></td>				<td> Table Data
+		<td></td>
+	</tr>
+
+</table>
+
+
+Atributes----------------------------
+
+document.getElementByID('one').getAttributes(class);
+
+
+
+<form action="link">
+<p> Text for paragraph 
+<input type"text" name="email" />
+<input type="submit" name="subscribe"; value="subscribe' />
+</form>
+
+
+
+
+
+
+<form method="post"  action="link">
+<label for="username"> Create a Username: </label>
+<input type="text" id="username">
+<div id="username" onblur="username" cheackUsername>;
+
+<label for="password" Password </lable>
+<input type="password" id="password" />
+
+<input type="submit" value="Sign Up" />
+</form>
+
+<script type="text/javascript" scr="js/event-attributes.js"></scripts>
+
+Links!-------------------------------
+	
+	<a>		Code for the "link" action in coding 
+	<href=" ">	Hyperlink reference
+
+	Combo the code tags & the "" is where you put the link to next page.
+
+	<a href="http://www.example.com">
+
+	Add the text that the viewer will click on to go to link
+
+	<a href="http://www.example.com">Link Display Text
+
+	And make sure to close the <a> with </a> after the Text 
+
+	<a href="http://www.example.com">Link Display Text</a>
+
+	Ta Da
+
+-------------------------------------
+Pg #. 148-9 // 160-3// 181 
+-------------------------------------
+
+IF STATEMENTS -----------------------
+	
+	if (score >= 50) {
+		congratulate();
+	}
+
+ELSE STATEMENTS ---------------------
+
+	if (score >= 50) {
+		congratulate();
+	}
+	else{
+		encourage();
+	}
+
+SWITCH STATEMENTS -------------------
+	
+	switch(level){
+		case 'One':
+			title = 'Level 1';
+			break;
+		case 'Two':
+			title = 'Level 2';
+			break;
+		case 'Three':
+			title = 'Level 3';
+			break;
+		default:
+			title= 'Test';
+			break;
+	}
+
+DATA TYPES--------------------------
+string	  //  Text
+number    //  Number
+Boolean   //  True or False
+null 	  //  Empty Value
+undefined //  Variable has been declared but has not yet been assigned a value 
+
+
+FORM STRUCTURE----------------------
+
+	<form action="http://www.example.com/uplaod.php" method="get">
+		<p>Input your information</p>
+	</form>
+
+FORM TEXT INPUT---------------------
+
+	<form action="http://www.example.com/login.php">
+		<p>Username:
+			<input type="text" name="username" size="15" maxlength="30" />
+		</p>
+	</form>
+PASSWORD INPUT----------------------
+
+	<form action="http://www.example.com/login.php">
+		<p>Username:
+			<input type="text" name="username" size="15" maxlength="30" />
+		</p>
+		<p> Password:
+			<input type="password" name="passwrod" size="15" maxlength="30"  />
+		</p> 
+	</form>
+
+TEXT AREA-------------------------------------
+
+	<form action="http://www.example.com/comments.php">
+		<p>What did you think of this gig?</p>
+			<textarea name="comment" cols="20" rows="4"> Enter your comments here.... </textarea>
+	</form>
+
+Radio Button-------------------------------------
+
+	<form action="http://www.example.com/profile.php">
+		<p>Please select your favorite genre:
+		<br />
+		<input type="radio" name="genre" value="rock" checked="checked" /> ROCK
+		
+	</form>
+
+
+FILE INPUT BOX----------------------------
+
+	<form action="http://www.example.com/uplaod.php" method="post">
+		<p>Input your information</p>
+			<input type="file" name="user-song" /><br  />
+			<input type="submit" value="Upload"  />
+	</form>
+
+Hidden Button-----------------------------
+
+	<form action="http://www.example.com/add.php">
+		<button><img src="images/add.gif" 
+			alt="add" 
+			width="10"/> 
+	   [button name]</button>
+		<input type="hidden" name="bookmark" value="lyrics"/>
+	</form>
+
+Stock Photos------------------------------
+www.istockphoto.com
+www.gettyimages.com
+www.veer.com 
+www.sxc.hu
+www.fotolia.com
+
+
+
+Domain Names --------------------------------
+name cheap.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

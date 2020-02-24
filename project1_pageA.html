@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project: Adventure</title>
+<!-- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->	
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+<style>
+		/*--HEADER----------------------------------------------------------------------------------------*/
+					header { 
+						text-decoration-color: blue;
+						min-height: 100px;
+						margin-top: 60px;
+					}
+
+
+		/*--HEADER H1---------------------------------------------------------------------------------------*/
+					header h1 {
+						padding: 40px 60px;
+						font-size: 48px;
+						color: red;
+					}
+
+
+		/*----MAIN--------------------------------------------------------------------------------------*/
+					main{
+						font-family: Source Sans Pro;
+						font-size: 12px;
+						grid-gap: 5px;
+						background-image: url('../images/sea.html')	;
+					}
+
+
+		/*---BODY---------------------------------------------------------------------------------------*/
+					body{
+						background-image:('../images/sea.html');
+						background-repeat:none;
+						background-size: cover;
+					}
+
+
+		/*---FOOTER---------------------------------------------------------------------------------------*/
+					footer {
+						color: red;
+						text-align: center;
+					}
+
+
+		/*-----------------------------------------------------------------------------------------*/
+
+
+					@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+					/*font-family: 'Source Sans Pro', sans-serif;*/
+					font-family: 'Source Sans Pro', sans-serif;
+
+					.redtext 	{	display:block;	text-decoration-style:	color:red;	}
+
+					.text 		{	display:none;	}
+
+					.heroinfoA	{	display:none;	}
+
+					.heroinfoP	{	display:none;	}
+
+					.heroinfoT	{	display:none;	}
+
+					.body 		{	grid-column: 	3;		grid-row:3;		 display: grid;	 background-image: ('../images/sea.html'); }
+
+					.show 		{	display:text;	}
+
+					.about		{	grid-column: 	2/1;	grid-row: 2/4; }
+</style>
+
+
+<!-- ----------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------- -->
+
+<head>
+	
+	<h2>The Legends of Greece!</h2>
+	<br>
+	<center><h1>Help Achillies Tame the Wild Pegasis!</h1></center>
+
+</head>
+<main>
+<body class=".bodyP">
+
+<br>
+
+<!-- ___________________________________________________________________________ -->
+
+<br>
+
+<h1>The Pegasis has been sighted on an island off the coast!</h1>
+
+<h2>Help Achilles Become a legend!</h2>
+
+<!-- ___________________________________________________________________________ -->
+
+</body>
+
+
+<footer>
+	<br>
+
+	<h2> The Adventures of Achilles! </h2>
+
+	<br>
+	<br>
+	<br>	
+</footer>
+
+
+
+
+
+<!--SCRIPTS------------------------------------------------------------------------------------------->
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+	$('.btn1').click(function() {
+	$('.heroinfoA').toggleClass('show');
+	} ) 
+
+	$('.btn2').click(function() {
+	$('.heroinfo2').toggleClass('show');
+	} ) 
+
+	$('.btn3').click(function() {
+	$('.heroinfo3').toggleClass('show');
+	} ) 
+
+//////////////////////////////////////////////////// HERO #3
+$('.btn4').click(function() {
+	$('hero-info-grid-show').toggleClass('show');
+} );
+
+
+//////////////////////////////////////////////////// HERO #2
+$('.btn5').click(function() {
+	$('hero-info-grid').toggleClass('show');
+} );
+
+
+//////////////////////////////////////////////////// HERO #3
+$('.btn6').click(function() {
+	$('hero-info-grid').toggleClass('show');
+} ); 
+
+</script>
+
+
+
+
+
+</html>

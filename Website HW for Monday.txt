@@ -1,0 +1,44 @@
+Global Nav w/ Jquaries 
+
+Update Links for Homeworks
+
+Media Quaries	///
+ 
+///single column - moble 
+///minwith; (not max width)
+
+///Double column - Desktop
+///minwidth; (not max width)
+
+
+
+
+------------
+sketch 2
+grid layout and story board
+
+
+
+--------------
+||  No Class Monday 1/20/2020
+Wire Frames  // possible quiz 
+
+
+
+------------------------------------------------
+<a href="3";
+<section id="3" 
+
+
+------------------------------------------------
+
+<div style= "width:80%;margin:auto;">
+<h1> Title</h1>
+
+<div style="boarder: 1px solid black; width:400px; height :300px; background-color:#ccc;></div>
+
+<a href="page2.html"><button>Choose Good</button></a>
+
+<a href="page3.html"><button> Choose Bad </button></a>
+
+</div>

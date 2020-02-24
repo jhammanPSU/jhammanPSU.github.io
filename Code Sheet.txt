@@ -1,0 +1,202 @@
+//switch Statements
+
+
+
+boilerplate
+
+
+
+
+<body>
+
+function
+<select id-"dropdown">
+	<option value="" selected>--</option>
+	<option>one</option>
+	<option>two</option>
+	<option>three</option>
+</select>
+
+<p id="speak"></p>
+
+
+
+<script>
+	if($('#dropdown').val('one')){
+	$('speak').html('one is the loneliest number');
+
+</script>
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+case 'two':
+$('#speak').html('one is the loneliest number');
+
+
+
+let numberPic = $('dropdown')
+
+
+
+
+$('#speak').html
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+148-9 // 160-3// 181 
+
+IF STATEMENTS ---------------------
+	
+	if (score >= 50) {
+		congratulate();
+	}
+
+ELSE STATEMENTS ---------------------
+
+	if (score >= 50) {
+		congratulate();
+	}
+	else{
+		encourage();
+	}
+
+SWITCH STATEMENTS ---------------------
+	
+	switch(level){
+		case 'One':
+			title = 'Level 1';
+			break;
+		case 'Two':
+			title = 'Level 2';
+			break;
+		case 'Three':
+			title = 'Level 3';
+			break;
+		default:
+			title= 'Test';
+			break;
+	}
+
+DATA TYPES-------------------------------
+string	  //  Text
+number    //  Number
+Boolean   //  True or False
+null 	  //  Empty Value
+undefined //  Variable has been declared but has not yet been assigned a value 
+
+
+FORM STRUCTURE-------------------------------------
+
+	<form action="http://www.example.com/uplaod.php" method="get">
+		<p>Input your information</p>
+	</form>
+
+FORM TEXT INPUT------------------------------------
+
+	<form action="http://www.example.com/login.php">
+		<p>Username:
+			<input type="text" name="username" size="15" maxlength="30" />
+		</p>
+	</form>
+PASSWORD INPUT------------------------------------
+
+	<form action="http://www.example.com/login.php">
+		<p>Username:
+			<input type="text" name="username" size="15" maxlength="30" />
+		</p>
+		<p> Password:
+			<input type="password" name="passwrod" size="15" maxlength="30"  />
+		</p> 
+	</form>
+
+TEXT AREA-------------------------------------
+
+	<form action="http://www.example.com/comments.php">
+		<p>What did you think of this gig?</p>
+			<textarea name="comment" cols="20" rows="4"> Enter your comments here.... </textarea>
+	</form>
+
+Radio Button-------------------------------------
+
+	<form action="http://www.example.com/profile.php">
+		<p>Please select your favorite genre:
+		<br />
+		<input type="radio" name="genre" value="rock" checked="checked" /> ROCK
+		
+	</form>
+
+
+FILE INPUT BOX----------------------------
+
+	<form action="http://www.example.com/uplaod.php" method="post">
+		<p>Input your information</p>
+			<input type="file" name="user-song" /><br  />
+			<input type="submit" value="Upload"  />
+	</form>
+
+Hidden Button-----------------------------
+
+	<form action="http://www.example.com/add.php">
+		<button><img src="images/add.gif" 
+			alt="add" 
+			width="10"/> 
+	   [button name]</button>
+		<input type="hidden" name="bookmark" value="lyrics"/>
+	</form>
+
+Stock Photos------------------------------
+www.istockphoto.com
+www.gettyimages.com
+www.veer.com 
+www.sxc.hu
+www.fotolia.com
+
+
+
+Domain Names --------------------------------
+name cheap.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

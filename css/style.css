@@ -1,19 +1,47 @@
+
+
+
+
+
+
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+  background-image:url('../images/forrest.html');
+  	color: #333;
+}
+
+
+
+.body2{
+	background-image: url('../images/forrest.html');
 	color: #333;
 }
+
+
+
+.bodyP{
+	background-image:('../images/sea.html');
+}
+
+
 
 a {
 	text-decoration: none;
-	color: #333;
+	color: red;
 }
 
-a:hover { color: Tomato; }
+
+
+
+a:hover { color: tomato; }
+
+
 
 header, nav, main, footer {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 }
+
+
 
 
 /* Header styles */
@@ -22,36 +50,41 @@ header {
 	color: BlanchedAlmond;
 	min-height: 100px;
 	margin-top: 60px;
-	background-image: url("../images/stars.jpeg");
-}
-
-header h1 {
-	padding: 40px 60px;
-	font-size: 48px;
 }
 
 
-/* Nav styles */
-nav { background-color: #333; }
-nav ul { 
-	display: flex;
-	justify-content: flex-end;
-}
-nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
-nav a:hover { color: white; }
 
 
-/* Main styles */
+
+
+
+header h1	{	padding: 40px 60px;	font-size: 48px;	}		/* Nav styles */
+
+nav			{ background-color: #333; }
+
+nav ul 		{ display: flex;	justify-content: flex-end;	}
+
+nav li 		{ padding: 10px 10px; }
+
+nav a 		{ color: #FFF; }
+
+nav a:hover { color: tomato; }		/* Main styles */
+
+
+
+
 main { 
 	background-color: #fff;
-	display: grid;
-	grid-template-columns: 60% 40%;
+	display: grid 3fr 3fr;	
+	grid-template-columns: 40% 60%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-section {
-	padding: 40px 60px;
-}
+
+section {	padding: 40px 60px;	}
+
+
 
 section ul, aside ul {
 	list-style-type: square;
@@ -59,9 +92,11 @@ section ul, aside ul {
 	margin-left: 30px;
 }
 
+
 aside {
 	padding: 40px 10px;
 }
+
 
 
 
@@ -71,4 +106,45 @@ footer {
 	color: white;
 	text-align: center;
  }
- footer p { padding: 20px; }
+
+
+footer p { padding: 20px; }
+/*Hero div Styling*/
+
+
+
+div { 
+	background-color: #000;
+	color: white;
+	text-align: center;
+ }
+
+
+
+
+div p { padding: 20px; }
+
+
+
+
+
+.div2 {
+  height: 60px;
+  padding: 60px 0;
+  width: 180px;
+  font-size: 2em;
+  line-height: 60px;
+  background: pink;
+  text-align: center;
+  margin: 1%;
+  display: block;
+  float: left;
+  cursor: pointer;
+  font-family: 'Lato';
+}
+
+
+
+.o-hide {
+  clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px);
+}

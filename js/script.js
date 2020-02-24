@@ -38,6 +38,29 @@ $(initialize());
 
 
 });
+
+
+
+function checkUsername() {
+	}
+
+
+
+
+
+function addActiveClass(){
+	if ( $('.btn1').class('.heroinfo1') {
+		alert('.show');
+	} else if( $(){
+
+	} else {
+
+	}
+
+}
+
+function
+
 // if() {
 // }
 

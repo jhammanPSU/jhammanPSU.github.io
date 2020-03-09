@@ -115,18 +115,18 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 876,
+				"buffer_size": 1435,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 845,
+				"buffer_size": 939,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -283,7 +283,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/jh970/Desktop/jhammanPSU.github.io-master/jhammanPSU.github.io-master"
+		"/C/Users/jh970/Desktop/jhammanPSU.github.io"
 	],
 	"file_history":
 	[
@@ -458,15 +458,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 876,
+						"buffer_size": 1435,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								0,
+								0
 							]
 						],
 						"settings":
@@ -487,15 +487,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 845,
+						"buffer_size": 939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								82,
-								82
+								0,
+								0
 							]
 						],
 						"settings":

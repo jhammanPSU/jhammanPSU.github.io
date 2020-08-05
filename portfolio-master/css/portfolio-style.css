@@ -1,0 +1,328 @@
+* {box-sizing: border-box;}
+body {
+	font-family: 'Ubuntu', sans-serif;
+	
+	background-image: url('../images/bk.png');
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 0 auto;
+}
+
+a {
+	color: #b4341a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7e2514;
+}
+
+.a-style {color: #b4341a;}
+
+header, main {width:100%; margin:auto;}
+/* HEADER STYLES */
+header {
+	padding: 60px;
+	height: 300px;
+	background-image: url('../images/woodentable.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: cover;
+	color: #fff;
+}
+
+header h1 {
+	font-size: 48px;
+	font-weight: 400;
+    text-shadow: 1px 1px 2px #333;
+}
+
+header h2 {
+	font-weight: 400;
+	text-shadow: 1px 1px 2px #333;
+}
+
+nav ul { 
+	width: 100%;
+	background-color: #333;
+	margin: 0;
+	padding: 10px;
+	list-style: none; 
+}
+
+/* NAV STYLES */
+nav li {
+	font-weight: 700;
+	text-align: center;
+}
+nav a { color: #fff; }
+nav a:hover { color: #fc5f40; }
+
+/* MAIN STYLES */
+main {
+	padding: 60px;
+}
+
+main h2 {
+	/*margin-top: 30px;*/
+}
+
+p {
+	font-weight: 300;
+}
+
+.portfolio {
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.portfolio article {
+    background-color: #eee;
+    padding: 1em;
+}
+
+
+.myproject {
+  color: white;
+  background-color: dodgerblue;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+
+/*content boxes*/
+.feature-cvr {
+
+}
+
+.proj-thumb-cvr {
+	box-shadow: 2px 2px 5px #999;
+	width: 80%;
+	height: auto;
+}
+
+.feature {
+}
+
+.proj-thumb {
+	box-shadow: 2px 2px 5px #999;
+	width: 100%;
+	height: auto;
+}
+/*content boxes*/
+
+.proj-descript {
+	box-shadow: 2px 2px 5px #999;
+	width: 100%;
+	height: auto;
+}
+
+.go-link:after {
+	content: ' \21D2';
+}
+
+.round {
+	border-radius: 50%;
+}
+
+.why {
+		image-rendering: ;
+		display:grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 80px;
+		margin: auto;
+		width: 80%;
+}
+
+.why img {
+	width: 100%;
+}
+
+.more {
+	color: 111,111,11;
+}
+
+blockquote {
+	quotes: "\201C""\201D""\2018""\2019";
+	font-weight: 300;
+}
+
+blockquote:before {
+	content: open-quote;
+}
+
+blockquote:after {
+	content: close-quote;
+}
+
+footer {
+	background-color: #333;
+	height: 120px;
+}
+
+
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+
+ul.closer { 
+	width: 100%;
+	margin-top: 0;
+	padding-top: 40px;
+	list-style-type: none; 
+	color: #FFF;
+}
+
+.closer li { color: #fff; }
+
+.closer a { color: white; }
+
+/*------------------------------------------------------------------------------------*/
+
+ul.social { 
+	width: 100%;
+	margin-top: 0;
+	padding-top: 40px;
+	list-style-type: none; 
+	color: #FFF;
+}
+.social li { color: #fff;}
+.social a {	color: #333;}
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+	.portfolio {
+		width: 80%;
+		margin: auto;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 40px;
+		grid-row-gap: 120px;
+	}
+}
+
+
+@media only screen and (min-width: 1024px) {
+	.portfolio {
+		width: 80%;
+		margin: auto;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.feature{
+		grid-column: 1/3;
+		grid-row: 1/3;
+	}
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: center;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: inline-block;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 4px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: show;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Six columns side by side */
+.column {
+  float: center;
+  width: cover;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+

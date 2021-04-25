@@ -115,7 +115,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1435,
+				"buffer_size": 6639,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -124,7 +124,7 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 939,
+				"buffer_size": 2709,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -458,7 +458,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1435,
+						"buffer_size": 6639,
 						"regions":
 						{
 						},
@@ -487,7 +487,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 939,
+						"buffer_size": 2709,
 						"regions":
 						{
 						},
